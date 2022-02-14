@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vu45jo');
+  src:  url('fonts/icomoon.eot?vu45jo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vu45jo') format('truetype'),
+    url('fonts/icomoon.woff?vu45jo') format('woff'),
+    url('fonts/icomoon.svg?vu45jo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-params:before {
+  content: "\e918";
+}
+.icon-django:before {
+  content: "\e915";
+}
+.icon-mongodb:before {
+  content: "\e90f";
+  color: #47a248;
+}
+.icon-npm:before {
+  content: "\e910";
+  color: #cb3837;
+}
+.icon-bootstrap:before {
+  content: "\e911";
+  color: #563d7c;
+}
+.icon-postman:before {
+  content: "\e912";
+  color: #ff6c37;
+}
+.icon-node-dot-js:before {
+  content: "\e913";
+  color: #393;
+}
+.icon-javascript:before {
+  content: "\e914";
+  color: #f7df1e;
+}
+.icon-html5:before {
+  content: "\e90e";
+  color: #e34f26;
+}
+.icon-css3:before {
+  content: "\e90d";
+  color: #1572b6;
+}
+.icon-IcoMoon:before {
+  content: "\e919";
+}
+.icon-profile:before {
+  content: "\e90c";
+}
+.icon-sphere:before {
+  content: "\e90a";
+}
+.icon-globe:before {
+  content: "\e90a";
+}
+.icon-internet:before {
+  content: "\e90a";
+}
+.icon-education:before {
+  content: "\e906";
+}
+.icon-cog:before {
+  content: "\e917";
+}
+.icon-bars:before {
+  content: "\e916";
+}
+.icon-print:before {
+  content: "\e90b";
+}
+.icon-chain:before {
+  content: "\e909";
+}
+.icon-laptop:before {
+  content: "\e908";
+}
+.icon-pencil:before {
+  content: "\e907";
+}
+.icon-linkedin-square:before {
+  content: "\e905";
+}
+.icon-envelope:before {
+  content: "\e902";
+}
+.icon-map-marker:before {
+  content: "\e903";
+}
+.icon-github:before {
+  content: "\e904";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-mobile:before {
+  content: "\e900";
+}
