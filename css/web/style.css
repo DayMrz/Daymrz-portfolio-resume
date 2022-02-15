@@ -209,8 +209,9 @@ body {
 }
 
 .project-img {
-  width: 100%;
+  height: calc(calc(100vw / 16) * 9);
   margin: auto;
+  width: 100%;
 }
 
 .project-btn,
