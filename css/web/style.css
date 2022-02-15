@@ -1,5 +1,6 @@
 @import url('font-size.css');
 @import url('navbar.css');
+@import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:wght@300;400;600;700;800;900&display=swap');
 
 :root {
@@ -31,8 +32,6 @@
 body {
   color: var(--Active-Letter-Gray);
   font-family: 'Rubik', sans-serif;  font-size: 2rem;
-  line-height: 1.6;
-  letter-spacing: 1px;
 }
 
 .wrapper {
