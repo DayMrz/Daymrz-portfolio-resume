@@ -192,6 +192,7 @@ body {
   margin-bottom: 2em;
   padding: 1em;
   text-align: center;
+  width: fit-content;
 }
 
 .projects {
@@ -208,14 +209,14 @@ body {
 }
 
 .project-img {
-  height: calc(calc(100vw / 16) * 9);
-  margin: auto;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+
 }
 
 .project-btn,
 .live-btn {
-  padding: 0 5rem;
+  padding: 0 2em;
 }
 
 .project-two-btn {
@@ -251,17 +252,9 @@ body {
     padding: 0;
     text-align: center;
   }
-
-  /* #projects article{
-    padding: 2em;
-  } */
 }
 
 @media (min-width: 900px) {
-  /* #projects article{
-    padding: 0;
-  } */
-  
   .projects {
     display: grid;
     gap: 1em;
@@ -270,8 +263,6 @@ body {
     padding: 0;
     text-align: center;
   }
-
-
   
 }
 
