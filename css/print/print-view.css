@@ -70,10 +70,6 @@
     font-size: .8rem;
   }
 
-  .wrapper {
-    background-color: var(--Secondary-Background);
-  }
-
   .btn-not-print{
         display: none;
     }

@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:wght@300;400;600;700;800;900&display=swap');
 
 :root {
-  --Button-Anakiwa: hsl(195, 100%, 75%);
+  --Button-Anakiwa: hsla(195, 100%, 75%, 0.685);
   --Primary-Background-Violet: hsl(288, 77%, 12%);
-  --Secondary-Background-Violet: hsla(289, 72%, 24%, 0.431);
+  --Secondary-Background-Violet: hsla(289, 72%, 24%, 0.329);
   --Secondary-Background-Persian-Indigo: hsl(269, 75%, 31%);
   --Icon-Chetwode-Blue:hsl(237, 63%, 71%);
   --Primary-Link-Active: hsla(240, 39%, 42%, 0.534);
@@ -21,7 +21,7 @@
 
   ---Box-Shadow-Dark: hsl(288, 77%, 12%) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, hsl(288, 77%, 12%) 0px -2px 6px 0px inset;
   --Box-Shadow-Light-Btn: hsl(263, 54%, 83%) 0px 50px 200px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, hsl(263, 54%, 83%) 0px -2px 6px 0px inset;
-  --Box-Shadow-Color-Btn: hsl(195, 100%, 75%) 0px 50px 200px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, hsl(195, 100%, 75%) 0px -2px 6px 0px inset;
+  --Box-Shadow-Color-Btn: hsla(195, 100%, 75%, 0.685) 0px 50px 200px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, hsla(195, 100%, 75%, 0.171) 0px -2px 6px 0px inset;
 }
 
 /* .light {
