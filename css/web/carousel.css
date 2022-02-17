@@ -1,0 +1,47 @@
+.carousel {
+  box-shadow: var(--Box-Shadow-Dark);
+  margin: 0 auto;
+  width: 90%;
+
+}
+
+.carousel-window { 
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  width: 100%;
+}
+
+.img-carousel { 
+  aspect-ratio: 16/9;  
+  height: 100%;
+}
+
+.carousel-image-container {
+  display: flex;
+  height: 100%;
+  transform: translateX(0);
+  transition: transform .5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-carousel {
+  background-color: var(--Button-Anakiwa);
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  padding: .5em;
+  width: 49.5%;
+}
+
+#left {
+  border-radius: 0 0 0 10px;
+}
+
+#right {
+  border-radius: 0 0 10px 0;
+}
+
