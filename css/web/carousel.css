@@ -1,13 +1,13 @@
 .carousel {
   box-shadow: var(--Box-Shadow-Dark);
-  margin: 0 auto;
-  width: 90%;
+  /* margin: 0 auto;
+  width: 90%; */
 
 }
 
 .carousel-window { 
   aspect-ratio: 16/9;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 100%;
 }
 
