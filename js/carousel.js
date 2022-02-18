@@ -24,8 +24,6 @@ function changeImage() {
 
 function resetInterval() {
   clearInterval(interval)
-  interval = setInterval(run, 2000)
-
 }
 
 rightBtn.addEventListener('click', () => {
