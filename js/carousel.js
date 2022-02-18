@@ -6,8 +6,6 @@ const img = document.querySelectorAll('.img-carousel')
 
 let idx = 0
 
-let interval = setInterval(run, 2000)
-
 function run() {
   idx++
   changeImage()
@@ -22,18 +20,12 @@ function changeImage() {
   imgs.style.transform = `translateX(${-idx * 100}%)`
 }
 
-function resetInterval() {
-  clearInterval(interval)
-}
-
 rightBtn.addEventListener('click', () => {
   idx++
   changeImage()
-  resetInterval()
 })
 
 leftBtn.addEventListener('click', () => {
   idx--
   changeImage()
-  resetInterval()
 })
