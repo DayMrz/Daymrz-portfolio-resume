@@ -13,9 +13,14 @@
   width: 100%;
 }
 
-.img-carousel { 
-  aspect-ratio: 16/9;
+.link-img-carousel {
+  aspect-ratio: 16 / 9;
   height: 100%;
+}
+
+.img-carousel { 
+  height: 100%;
+  width: 100%;
 }
 
 .carousel-image-container {
