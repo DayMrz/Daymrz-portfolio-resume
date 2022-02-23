@@ -12,3 +12,12 @@ function initiate() {
 
 window.onload = initiate;
 
+const colorTheme = document.querySelector('#color-theme span')
+const setButtons = document.querySelectorAll('.icon-btn-set')
+
+colorTheme.addEventListener('click', lightTheme)
+
+function lightTheme() {
+        console.log('keep')
+    document.body.classList.toggle('light')
+}
