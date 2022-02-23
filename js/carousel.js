@@ -17,10 +17,12 @@ function changeImage() {
   } else if (idx < 0){
     idx = img.length -1
   }
+
   imgs.style.transform = `translateX(${-idx * 100}%)`
 }
 
 rightBtn.addEventListener('click', () => {
+  // console.log('click')
   idx++
   changeImage()
 })
