@@ -11,7 +11,7 @@
   --Background-Night-Black-Opacity: hsla(252, 86%, 5%, 0.938);
   --Letter-Light: hsl(264, 7%, 86%);
   --Button-Anakiwa: hsla(195, 100%, 75%, 0.685);
-  --Neutral-Yellow: hsl(60, 100%, 50%); 
+  --Neutral: hsl(0, 0%, 0%); 
   --Active-Icon-Alice-Purple: hsl(263, 85%, 95%);
   --Active-Icon: hsl(0, 0%, 100%);
   --Active-Letter-Gray: hsl(264, 7%, 86%);
@@ -34,7 +34,7 @@
   --Background-Welcome-Section: hsl(0, 0%, 100%);
   --Background-Night-Black-Opacity: hsla(251, 58%, 57%, 0.842);
   --Button-Anakiwa: hsl(195, 59%, 51%);
-  --Neutral-Yellow: hsl(60, 78%, 2%); 
+  --Neutral: hsl(0, 0%, 0%); 
 
   --Active-Letter-Gray: hsl(0, 0%, 9%);
 
