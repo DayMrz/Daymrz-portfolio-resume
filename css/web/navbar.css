@@ -18,7 +18,6 @@ header {
 .nav-list {
   cursor: pointer;
 }
-
 #bars {
   cursor: pointer;
   color: rgb(239, 230, 253);
@@ -34,7 +33,7 @@ header {
   width: 100%;
 }
 
-.nav--visible {
+.nav-visible {
   height: auto;
   position: relative;
   visibility: visible;
