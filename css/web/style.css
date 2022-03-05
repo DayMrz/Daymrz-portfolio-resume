@@ -78,10 +78,6 @@ body {
   padding: .5em;
 }
 
-.settings-btn:hover {
-  opacity: .80;
-}
-
 .icon-IcoMoon {
   color: var(--Neutral);
   font-size: 1.5em;
