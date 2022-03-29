@@ -40,6 +40,12 @@ footer,
   padding-left: .5em;
 }
 
+aside,
+footer,
+#header-print {
+  background-color: var(--Primary-Background);
+}
+
 .display-title::before {
   content: attr(title);
 }
@@ -54,20 +60,6 @@ footer,
 
 .contact-icons .display-title::before {
   content: attr(href);
-}
-
-aside,
-footer,
-#header-print {
-  background-color: var(--Primary-Background);
-}
-
-#header-print {
-  padding-top: 5em;
-}
-
-#header-print .subtitle {
-  padding: .5em 0;
 }
 
 .under-title-contact-info li,
@@ -102,10 +94,22 @@ footer,
   margin-right: .8em;
 }
 
-.two-cols,
+.education,
+.projects {
+  padding: .5em 1.5em 0 1.5em;
+}
 
+.two-cols,
 footer {
   padding: 1.5em;
+}
+
+#header-print {
+  padding-top: 5em;
+}
+
+#header-print .subtitle {
+  padding: .5em 0;
 }
 
 .about-me,
@@ -119,12 +123,6 @@ footer {
 .projects li {
   padding-bottom: .5em;
 }
-
-.education,
-.projects {
-  padding: .5em 1.5em 0 1.5em;
-}
-
 
 @media (any-hover: hover) {
   a:hover { 
