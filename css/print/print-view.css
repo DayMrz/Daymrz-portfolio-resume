@@ -18,11 +18,44 @@
   border-radius: 0 0 1rem 1rem;
   display: grid;
   gap: .5em;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: auto;
   max-width: 1000px;
+  padding: .5em;
 }
 
+.wrapper #header-print {
+  grid-column: 1;
+}
+
+.wrapper aside {
+  grid-column: 2 / -1;
+}
+
+.wrapper main {
+  grid-column: 2 / -1;
+}
+
+
+.wrapper footer {
+  grid-column: 2 / -1;
+} 
+/* .wrapper main {
+  grid-column: span 7;
+} */
+
+article .flex-display {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .flex-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+/* 
 .wrapper header {
   grid-column: 1 / -1;
 }
@@ -40,12 +73,17 @@
   grid-column: span 7;
 }
 
-.wrapper footer {
-  grid-column: 1 / -1;
-}
+*/
 
-@media (max-width: 300px) {
-  .wrapper {
+@media (max-width: 450px) {
+
+  footer .flex-display {
+    display: flex;
+    flex-direction: column;
+    font-weight:normal;
+  }
+
+  /* .wrapper {
     padding: 0;
   }
 
@@ -59,12 +97,17 @@
 
   .project-title  {
     margin-left: .5em;
-  }
-}
+  }*/
+} 
 
 @media only print {
   body {
     font-size: .67em;
+  }
+
+  .wrapper {
+    margin: 0;
+    padding: 0;
   }
 
   header .btn-not-print {
@@ -75,46 +118,46 @@
         display: none;
     }
 
-  .display-title::before {
+  /* .display-title::before {
     content: attr(title);
   }
 
   .display-link::before {
     content: attr(href);
-  }
+  } */
 
-  .under-title-contact-info .display-title {
+  /* .under-title-contact-info .display-title {
     border-left:  .9px solid var(--Secondary-Link-Active);
     padding: 0 .2em;
-  }
+  } */
 
-  .display-title:first-of-type {
+  /* .display-title:first-of-type {
     border-left: none;
-  }
+  } */
 
-  #about-me .contact-icons {
+  /* .about-me .contact-icons {
     display: flex;
     flex-direction: column; 
     font-size: inherit;
-  }
+  } */
 
-  aside,
+  /* aside,
   footer,
   #header-print {
     background-color: var(--Primary-Background);
-  }
+  } */
   
-  .contact-icons .display-title::before {
+  /* .contact-icons .display-title::before {
     content: attr(href);
-  }
+  } */
   
-  .contact-icons li {
+  /* .contact-icons li {
     padding-bottom: .5em;
   }
 
   .contact-icons li:first-of-type {
     padding-top: .5em;
-  }
+  } */
 
   .only-print {
     display: block;
@@ -124,10 +167,10 @@
     display: none;
   }
 
-  .contact-icons {
+  /* .contact-icons {
     list-style:circle;
     padding: 1.5em;
-  }
+  } */
 
   .footer-msg {
     font-family: 'Inconsolata', monospace;

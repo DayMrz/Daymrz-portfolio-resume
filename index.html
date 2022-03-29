@@ -8,8 +8,10 @@
   <title>Day's Portfolio</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/day-logo-purple-background.jpg">
   <link rel="stylesheet" href="./icomoon/style.css" type="text/css">
-  <link id="pagestyle" rel="stylesheet" href="css/web/style.css" type="text/css" media="screen">
-  <link id="pagestyle" rel="stylesheet" href="css/print/print-view.css" media="print" type="text/css">
+  <!-- <link id="pagestyle" rel="stylesheet" href="css/web/style.css" type="text/css" media="screen">
+  <link id="pagestyle" rel="stylesheet" href="css/print/print-view.css" media="print" type="text/css"> -->
+  <!-- <link id="pagestyle" rel="stylesheet" href="css/web/style.css" type="text/css" media="screen"> -->
+  <link id="pagestyle" rel="stylesheet" href="css/print/print-view.css" type="text/css">
 </head>
 <body>
   <div class="wrapper">
@@ -38,16 +40,87 @@
     </header>
 
     <section id="header-print" class="print-view">
-      <h1 class="main-title print-view print-only">Day Munoz</h1>
-      <div class="under-title-contact-info print-view">
-        <a class="display-title print-view" href="https://goo.gl/maps/rWjTnLmrhpKUkip18" 
-        target="_blank" title="San Jose, CA, 95124">
-        </a>
-        <a class="display-title print-view" href="mailto:daymrz1465@gmail.com" target="_blank" title="daymrz1465@gmail.com">
-        </a>
-        <a class="display-title print-view" href="https://www.linkedin.com/in/day-munoz-a6064113a/" target="_blank" title="https://www.linkedin.com/in/day-munoz-a6064113a/">
-        </a>
+      <ul class="contact-icons print-view">
+        <li>
+          <div class="print-view flex-display">
+            <span class="print-view icon icon-devices"></span>
+            <a class="display-title" href="https://daymrz.github.io/Portfolio-Resume-Day/" target="_blank" title="Portfolio">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="print-view flex-display">
+            <span class="print-view icon icon-github"></span>
+            <a class="display-title" href="https://github.com/DayMrz" target="_blank" title="GitHub" >
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="print-view flex-display">
+            <span class="print-view icon icon-twitter"></span>
+            <a class="display-title" href="https://twitter.com/daymrz_" target="_blank" title="Twitter">
+            </a>
+          </div>
+        </li>
+      </ul>
+      <ul class="under-title-contact-info print-view">
+        <li>
+          <div class="print-view flex-display">
+            <span class="print-view icon "></span>
+            <a class="display-title print-view" href="https://goo.gl/maps/rWjTnLmrhpKUkip18" 
+            target="_blank" title="San Jose, CA, 95124">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="print-view flex-display">
+            <span class="print-view icon icon-envelope"></span>
+            <a class="display-title print-view" href="mailto:daymrz1465@gmail.com" target="_blank" title="daymrz1465@gmail.com">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="print-view flex-display">
+            <span class="print-view icon icon-linkedin-square"></span>
+            <a class="display-title print-view" href="https://www.linkedin.com/in/day-munoz-a6064113a/" target="_blank" title="https://www.linkedin.com/in/day-munoz-a6064113a/">
+            </a>
+          </div>
+        </li>
+      </ul>
+      <hr class="line-breaks  print-view">
+      <ul class="skills print-view">
+        <li class="reveal">
+          <span class="web-view  icon-laptop icons"></span>
+          <h3 class="subtitle">Skills</h3>
+          <p class="description">
+            HTML5 &#124; CSS3 &#124; JavaScript &#124; React &#124;
+            Express &#124; MongoDB &#124; Node.js &#124; Git 
+          </p>
+        </li>
+        
+        <li class="reveal">
+          <span class="web-view icon-tools icons"></span>
+          <h3 class="subtitle">Dev Tools</h3>
+          <p class="description">
+            VSCode &#124; CodePen &#124; Google Fonts &#124;
+            Icomoon &#124; Font Awesome &#124; GitHub &#124; Bulma &#124;
+            Bootstrap &#124; Cloudinary &#124; npm &#124; Heroku &#124; Figma
+          </p>
+        </li>
+      </ul>
+      <hr class="line-breaks print-view">
+      <div class="print-view">
+        <h2 class="subtitle print-view" >Blog On Hashnode</h2>
+        <p class="description print-view">
+          The idea of having a blog came from some mistakes and topics that were difficult to understand. Writing about it could be helpful for other people going through the same situation.
+        </p>
+        <div class="print-view flex-display">
+          <span class="print-view">To know more about it, visit:</span>
+          <a class="display-link" href="https://hashnode.com/@DayNotes">
+          </a>
+        </div>
       </div>
+
       <hr class="line-breaks  print-view">
     </section>
 
@@ -81,38 +154,22 @@
     </div>
 
 
-    <aside id="about-me" class="web-view print-view">
-      <ul class="contact-icons print-view">
-        <li>
-          <span class="only-print"><strong>Portfolio</strong></span>
-          <a class="display-title" href="https://daymrz.github.io/Portfolio-Resume-Day/" target="_blank" title="Portfolio">
-          </a>
-        </li>
-        <li>
-          <span class="only-print"><strong>GitHub</strong></span>
-          <a class="display-title" href="https://github.com/DayMrz" target="_blank" title="GitHub" >
-          </a>
-        </li>
-        <li>
-          <span class="only-print"><strong>Twitter</strong></span>
-          <a class="display-title" href="https://twitter.com/daymrz_" target="_blank" title="Twitter">
-          </a>
-        </li>
-      </ul>
+    <aside id="about-me" class="web-view">
+      <h1 class="main-title print-view print-only">Day Munoz</h1>
       <hr class="line-breaks print-view">
       <div class="reveal">
         <h2 class="subtitle print-view">About Me</h2>
         <h2 class="subtitle web-view">About Me</h2>
         <p class="description">
           <span class="web-view"> Hello!</span> This journey as a self-taught web developer started a year ago and grew into a passion for creating and building clean and modern websites. <br>
-          currently pursuing a career change and updating my skills are my goals. I have two years of experience as a social worker, communicating and developing new ideas have been essential to solving problems in the projects I have worked on. 
+          Currently pursuing a career change and updating my skills are my goals. <br> 2y of experience as a social worker, communicating and developing new ideas have been essential to solving problems in the projects I have worked on. 
         </p>
       </div>
 
       <ul id="skill-list" class="two-cols">
         <li class="reveal">
           <span class="web-view icon-devices icons"></span>
-          <h3 class="subtitle">Responsive Web App</h3>
+          <h3 class="subtitle web-view">Responsive Web App</h3>
           <p class="description">
             Following best practices and guidance to build responsive mobile-first applications allowing better user experiences. <br>
             Likewise, constantly looking for learning opportunities to improve accessibility around the different devices
@@ -121,24 +178,24 @@
 
         <li class="reveal">
           <span class="web-view icon-education icons"></span>
-          <h3 class="subtitle">Education</h3>
+          <h3 class="subtitle web-view">Education</h3>
           <p class="description">
             Continuously learning new techniques, interested in exploring the tools that big companies use, and aware of the trends in the frontend dev community.
           </p>
         </li>
-        <li class="reveal">
+        <li class="reveal web-view">
           <span class="web-view  icon-laptop icons"></span>
-          <h3 class="subtitle">Skills</h3>
-          <p class="description">
+          <h3 class="subtitle web-view">Skills</h3>
+          <p class="description web-view">
             HTML5 &#124; CSS3 &#124; JavaScript &#124; React &#124;
             Express &#124; MongoDB &#124; Node.js &#124; Git 
           </p>
         </li>
         
-        <li class="reveal">
+        <li class="reveal web-view">
           <span class="web-view icon-tools icons"></span>
-          <h3 class="subtitle">Dev Tools</h3>
-          <p class="description">
+          <h3 class="subtitle web-view">Dev Tools</h3>
+          <p class="description web-view">
             VSCode &#124; CodePen &#124; Google Fonts &#124;
             Icomoon &#124; Font Awesome &#124; GitHub &#124; Bulma &#124;
             Bootstrap &#124; Cloudinary &#124; npm &#124; Heroku &#124; Figma
@@ -148,6 +205,45 @@
     </aside>
 
     <main>
+      <div class="about-me" class="print-view">
+        <h1 class="main-title print-view print-only">Day Munoz</h1>
+        <hr class="line-breaks print-view">
+        <div class="reveal">
+          <h2 class="subtitle print-view">About Me</h2>
+          <h2 class="subtitle web-view">About Me</h2>
+          <p class="description">
+            <span class="web-view"> Hello!</span> This journey as a self-taught web developer started a year ago and grew into a passion for creating and building clean and modern websites. <br>
+            Currently pursuing a career change and updating my skills are my goals. <br> 2y of experience as a social worker, communicating and developing new ideas have been essential to solving problems in the projects I have worked on. 
+          </p>
+        </div>
+  
+        <ul id="skill-list" class="two-cols">
+          <li class="reveal">
+            <span class="web-view icon-devices icons"></span>
+            <h3 class="subtitle web-view">Responsive Web App</h3>
+            <p class="description">
+              Following best practices and guidance to build responsive mobile-first applications allowing better user experiences. <br>
+              Likewise, constantly looking for learning opportunities to improve accessibility around the different devices
+            </p>
+          </li>
+  
+          <li class="reveal">
+            <span class="web-view icon-education icons"></span>
+            <h3 class="subtitle web-view">Education</h3>
+            <p class="description">
+              Continuously learning new techniques, interested in exploring the tools that big companies use, and aware of the trends in the frontend dev community.
+            </p>
+          </li>
+        </ul>
+        <h2 class="print-view">Work Experience</h2>
+        <h3 class="print-view">Social Worker</h3>
+        <p class="description print-view">
+          2y of Experience being a social worker in Colombia.
+          Discussing and generating ideas to develop projects aimed at the community, conflict resolution and great focus on work under pressure in territories using methods and communication skills
+        </p>
+        <hr class="line-breaks print-view">
+
+      </div>
       <hr class="line-breaks web-view">
       <section id="projects">
         <div class="reveal">
@@ -179,10 +275,12 @@
                     Demo
                 </a>
               </div>
-              <span class="only-print">Visit</span>
-              <a class="display-link" href="https://daymrz.github.io/Video-player/">
-                <span class="print-view not-print">Visit</span>
-              </a>
+              <div class="print-view flex-display">
+                <span class="print-view">Visit:</span>
+                <a class="display-link" href="https://daymrz.github.io/Video-player/">
+                </a>
+              </div>
+
             </article>
           </li>
           <li class="reveal">
@@ -206,10 +304,11 @@
                     Demo
                 </a>
               </div>
-              <span class="only-print">Visit</span>
-              <a class="display-link" href="https://ancient-woodland-38865.herokuapp.com/campgrounds">
-                <span class="print-view not-print">Visit</span>
-              </a>
+              <div class="prin-view flex-display">
+                <span class="print-view">Visit:</span>
+                <a class="display-link" href="https://ancient-woodland-38865.herokuapp.com/campgrounds">
+                </a>
+              </div>
             </article>
           </li>
           <li class="reveal">
@@ -234,10 +333,11 @@
                     Demo
                 </a>
               </div>
-              <span class="only-print">Visit</span>
-              <a class="display-link" href="https://daymrz.github.io/Landing-Page-OculusQuest2-Copy/">
-                <span class="print-view not-print">Visit</span>
-              </a>
+              <div class="print-view flex-display">
+                <span class="print-view">Visit:</span>
+                <a class="display-link" href="https://daymrz.github.io/Landing-Page-OculusQuest2-Copy/">
+                </a>
+              </div>
             </article>
           </li>
           <li class="reveal">
@@ -261,10 +361,11 @@
                     Demo
                 </a>
               </div>
-              <span class="only-print">Visit</span>
-              <a class="display-link" href="https://daymrz.github.io/Timer/">
-                <span class="print-view not-print">Visit</span>
-              </a>
+              <div class="print-view flex-display">
+                <span class="print-view">Visit:</span>
+                <a class="display-link" href="https://daymrz.github.io/Timer/">
+                </a>
+              </div>
             </article>
           </li>
           <li class="reveal">
@@ -288,31 +389,14 @@
                     Demo
                 </a>
               </div>
-              <span class="only-print">Visit</span>
-              <a class="display-link" href="https://daymrz.github.io/tip-calculator-app/">
-                <span class="print-view not-print">Visit</span>
-              </a>
+              <div class="print-view flex-display">
+                <span class="print-view">Visit:</span>
+                <a class="display-link" href="https://daymrz.github.io/tip-calculator-app/">
+                </a>
+              </div>
             </article>
           </li>
         </ul>
-        <hr class="line-breaks print-view">
-        <h2 class="print-view">Work Experience</h2>
-        <h3 class="print-view">Social Worker</h3>
-        <p class="description print-view">
-          2y of Experience being a social worker in Colombia.
-          Discussing and generating ideas to develop projects aimed at the community, conflict resolution and great focus on work under pressure in territories using methods and communication skills
-        </p>
-        <hr class="line-breaks print-view">
-        <h2 class="subtitle print-view" >Blog On Hashnode</h2>
-        <p class="description print-view">
-          The idea of having a blog came from some mistakes and topics that were difficult to understand. Writing about it could be helpful for other people going through the same situation.
-        </p>
-        <p class="description print-view">
-          To know more about it, visit 
-        </p>
-        <a class="display-link" href="https://hashnode.com/@DayNotes">
-          <span class="print-view not-print">Visit</span>
-        </a>
       </section>
     </main>
     
@@ -351,47 +435,57 @@
       <h2 class="subtitle print-view">Education</h2>
       <ul class="education print-view">
         <li class="footer-grid">
-          <h4 class="subtitle">
-            Certification: Udemy - The Modern React Bootcamp 
-          </h4>
-          <p>Online - Present</p>
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: Udemy - The Modern React Bootcamp 
+            </h4>
+            <p>Online - Present</p>
+          </div>
           <p class="description">
-            React Hooks, The new Context API, State management w/ useReducer + use Context (Redux Lite), The basics of React (props, state, etc)Master React Router, Drag & Drop With React, Writing dynamically styled-components w/ JSS, Common React Router Patterns.
-          </p>
+          React Hooks, The new Context API, State management w/ useReducer + use Context (Redux Lite), The basics of React (props, state, etc)Master React Router, Drag & Drop With React, Writing dynamically styled-components w/ JSS, Common React Router Patterns.
+        </p>
         </li>
         <li class="footer-grid">
-          <h4 class="subtitle">
-            Certification: Udemy - UI UX Design Hybrid from Figma to HTML, CSS and Javascript 
-          </h4>
-          <p>Online - Present</p>
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: Udemy - UI UX Design Hybrid from Figma to HTML, CSS and Javascript 
+            </h4>
+            <p>Online - Present</p>
+          </div>
           <p class="description">
             Master industry standard Design and Development processes. 
           </p>
         </li>
         <li class="footer-grid">
-          <h4 class="subtitle">
-            Certification: FreeCodeCamp - Responsive Web Design
-          </h4>
-          <p>Online - Oct 2021 - Feb 2022</p>
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: FreeCodeCamp - Responsive Web Design
+            </h4>
+            <p>Online - Oct 2021 - Feb 2022</p>
+          </div>
           <p class="description">
             Able to use Flexbox, Grid and Media Queries to create responsive webpages with CSS.
           </p>
         </li>
         <li class="footer-grid">
-          <h4 class="subtitle">
-            Certification: Udemy - The Web Developer Bootcamp
-          </h4>
-          <p>Online - Jan 2021 - Nov 2021</p>
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: Udemy - The Web Developer Bootcamp
+            </h4>
+            <p>Online - Jan 2021 - Nov 2021</p>
+          </div>
           <p class="description">
             Manipulate the DOM with vanilla JS,  Use Postman to monitor and test APIs, Use NPM to install all sorts of useful packages, Use Express and MongoDB to create full-stack JS applications,
             Use CSS Frameworks including Bootstrap 5, Semantic UI, and Bulma
           </p>
         </li>
         <li class="footer-grid">
-          <h4 class="subtitle">
-            Bachelor's Degree: Uniminuto - Social Work
-          </h4>
-          <p>Jan 2011 - April 2015</p>
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Bachelor's Degree: Uniminuto - Social Work
+            </h4>
+            <p>Jan 2011 - April 2015</p>
+          </div>
           <p class="description">
             Discuss and generate ideas to develop projects aimed at the community, conflict resolution and great focus on work under pressure in territories using methods and communication skills. 
           </p>

@@ -16,6 +16,7 @@
 body {
   background-color: var(--Background-Chetwode-Blue);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: .67em;
 }
 
 a {
@@ -23,27 +24,9 @@ a {
   transition: all 0.3s ease ;
 }
 
-header .btn-not-print {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 1em;
-}
-
-.btn-not-print button {
-  background-color: var(--Primary-Link-Active);
-  border-radius: 5px;
-  border: none;
-  color: var(--Secondary-Background);
-  cursor: pointer;
-  font-size: 1em;
-  padding: .5em 1em;
-  transition: all 0.4s ease-out;
-}
-
-.icon-arrow-right,
-.icon-print {
-  margin: .5em;
+.main-title {
+  font-size: 2em;
+  font-weight: 700;
 }
 
 aside,
@@ -62,52 +45,85 @@ footer,
   padding-left: .5em;
 }
 
-#header-print .under-title-contact-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0;
+.display-title::before {
+  content: attr(title);
 }
 
 .display-title {
   text-decoration: none;
 }
 
-#about-me .contact-icons {
+.display-link::before {
+  content: attr(href);
+}
+
+.contact-icons .display-title::before {
+  content: attr(href);
+}
+
+aside,
+footer,
+#header-print {
+  background-color: var(--Primary-Background);
+}
+
+#header-print {
+  padding-top: 8em;
+}
+
+#header-print .subtitle {
+  padding: 1em 0 .5em 0;
+}
+
+.under-title-contact-info li,
+.contact-icons li {
+  padding-bottom: 1em;
+}
+
+.under-title-contact-info .flex-display,
+.contact-icons .flex-display {
   display: flex;
-  font-size: 2rem;
-  justify-content: center;
+}
+
+.under-title-contact-info .icon,
+.contact-icons .icon {
+  font-size: 1.5em;
+  margin-right: .5em;
+}
+
+.under-title-contact-info,
+.contact-icons,
+.skills {
   list-style: none;
+}
+
+.under-title-contact-info,
+.contact-icons,
+.skills {
   padding: 0;
-}
 
-#about-me .display-title {
-  text-decoration: none;
 }
-
-.logo-contact-icon {
-  border-radius: 50%;
-  max-height: 20vw ;
-  padding: 0;
-  width: 30px;
-}
-
 .two-cols,
-.education {
-  padding: 1em;
+.education,
+.projects,
+footer {
+  padding: 1.5em;
 }
 
-#about-me li .project-description {
-  padding-bottom: .5em;
-}
-
-.projects {
+.about-me,
+#projects,
+footer {
   padding: 1em 0 0 1em;
-} 
+  
+}
+/* .projects {
+  padding: 2em 0 0 2em;
+}  */
 
 .projects li {
   padding-bottom: .5em;
 }
+
 
 @media (any-hover: hover) {
   a:hover { 
