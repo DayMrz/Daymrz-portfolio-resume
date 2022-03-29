@@ -25,14 +25,9 @@ a {
 }
 
 .main-title {
-  font-size: 2em;
+  color: var(--Primary-Button);
+  font-size: 3.5em;
   font-weight: 700;
-}
-
-aside,
-footer,
-#header-print {
-  background-color: var(--Primary-Background);
 }
 
 .line-breaks {
@@ -68,11 +63,11 @@ footer,
 }
 
 #header-print {
-  padding-top: 8em;
+  padding-top: 5em;
 }
 
 #header-print .subtitle {
-  padding: 1em 0 .5em 0;
+  padding: .5em 0;
 }
 
 .under-title-contact-info li,
@@ -101,27 +96,33 @@ footer,
 .contact-icons,
 .skills {
   padding: 0;
-
 }
+
+.under-title-contact-info .icon:first-of-type {
+  margin-right: .8em;
+}
+
 .two-cols,
-.education,
-.projects,
+
 footer {
   padding: 1.5em;
 }
 
 .about-me,
 #projects,
+.blog,
 footer {
   padding: 1em 0 0 1em;
-  
 }
-/* .projects {
-  padding: 2em 0 0 2em;
-}  */
+
 
 .projects li {
   padding-bottom: .5em;
+}
+
+.education,
+.projects {
+  padding: .5em 1.5em 0 1.5em;
 }
 
 

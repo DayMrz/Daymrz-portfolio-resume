@@ -40,9 +40,6 @@
 .wrapper footer {
   grid-column: 2 / -1;
 } 
-/* .wrapper main {
-  grid-column: span 7;
-} */
 
 article .flex-display {
   display: flex;
@@ -55,25 +52,6 @@ footer .flex-display {
   justify-content: space-between;
   font-weight: bold;
 }
-/* 
-.wrapper header {
-  grid-column: 1 / -1;
-}
-
-.wrapper #header-print {
-  grid-column: 1 / -1;
-  text-align: center;
-}
-
-.wrapper aside {
-  grid-column: span 3;
-}
-
-.wrapper main {
-  grid-column: span 7;
-}
-
-*/
 
 @media (max-width: 450px) {
 
@@ -82,22 +60,6 @@ footer .flex-display {
     flex-direction: column;
     font-weight:normal;
   }
-
-  /* .wrapper {
-    padding: 0;
-  }
-
-  .wrapper aside {
-    grid-column: span 4;
-  }
-  
-  .wrapper main {
-    grid-column: span 6;
-  }
-
-  .project-title  {
-    margin-left: .5em;
-  }*/
 } 
 
 @media only print {
@@ -106,6 +68,7 @@ footer .flex-display {
   }
 
   .wrapper {
+    border-radius: 0;
     margin: 0;
     padding: 0;
   }
@@ -118,47 +81,6 @@ footer .flex-display {
         display: none;
     }
 
-  /* .display-title::before {
-    content: attr(title);
-  }
-
-  .display-link::before {
-    content: attr(href);
-  } */
-
-  /* .under-title-contact-info .display-title {
-    border-left:  .9px solid var(--Secondary-Link-Active);
-    padding: 0 .2em;
-  } */
-
-  /* .display-title:first-of-type {
-    border-left: none;
-  } */
-
-  /* .about-me .contact-icons {
-    display: flex;
-    flex-direction: column; 
-    font-size: inherit;
-  } */
-
-  /* aside,
-  footer,
-  #header-print {
-    background-color: var(--Primary-Background);
-  } */
-  
-  /* .contact-icons .display-title::before {
-    content: attr(href);
-  } */
-  
-  /* .contact-icons li {
-    padding-bottom: .5em;
-  }
-
-  .contact-icons li:first-of-type {
-    padding-top: .5em;
-  } */
-
   .only-print {
     display: block;
   }
@@ -167,15 +89,9 @@ footer .flex-display {
     display: none;
   }
 
-  /* .contact-icons {
-    list-style:circle;
-    padding: 1.5em;
-  } */
-
   .footer-msg {
     font-family: 'Inconsolata', monospace;
     padding: .3em 0;
-    text-align: center;
   }
   
   .footer-msg .description {

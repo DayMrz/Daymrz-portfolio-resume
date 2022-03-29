@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?x7wb2m');
-  src:  url('fonts/icomoon.eot?x7wb2m#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?x7wb2m') format('truetype'),
-    url('fonts/icomoon.woff?x7wb2m') format('woff'),
-    url('fonts/icomoon.svg?x7wb2m#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?gal9v5');
+  src:  url('fonts/icomoon.eot?gal9v5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gal9v5') format('truetype'),
+    url('fonts/icomoon.woff?gal9v5') format('woff'),
+    url('fonts/icomoon.svg?gal9v5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -75,8 +75,20 @@
 .icon-IcoMoon:before {
   content: "\e919";
 }
+.icon-sphere:before {
+  content: "\e90b";
+}
+.icon-globe:before {
+  content: "\e90b";
+}
+.icon-internet:before {
+  content: "\e90b";
+}
 .icon-education:before {
   content: "\e906";
+}
+.icon-map-marker:before {
+  content: "\e903";
 }
 .icon-close:before {
   content: "\e91a";
