@@ -44,5 +44,6 @@ const setButtons = document.querySelectorAll('.icon-btn-set')
 colorTheme.addEventListener('click', lightTheme)
 
 function lightTheme() {
-  document.body.classList.toggle('light')
+  document.body.classList.toggle('light');
 }
+
