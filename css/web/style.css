@@ -1,8 +1,7 @@
 @import url('carousel.css');
 @import url('form.css');
 @import url('navbar.css');
-@import url('color-theme/dark.css');
-@import url('color-theme/light.css');
+@import url('root.css');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Lobster&family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *, *::before, ::after {
@@ -10,10 +9,8 @@
   margin: 0;
 }
 
-@media (prefers-color-scheme: light ) {
-
   body {
-    color: var(--Letter-Light);
+  color: var(--Letter-Light);
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: var(--Description-Font-Weight);
@@ -306,56 +303,54 @@
   }
   
   @media (any-hover: hover) {
-  .project-btn:hover, 
-  .live-btn:hover,
-  .btn-carousel:hover {
-    opacity: .7;
-  }
-  
-  .contact-icons .icon:hover {
-    opacity: .70;
-  }
-  }
+    .project-btn:hover, 
+    .live-btn:hover,
+    .btn-carousel:hover {
+      opacity: .7;
+    }
+    
+    .contact-icons .icon:hover {
+      opacity: .70;
+    }
+    }
   
   @media (min-width: 600px) {
-  body {
-    font-size: 1.1em;
-  }
-  
-  header {
-    display: flex;
-    padding: 0;
-  }
-  
-  #welcome-section .description {
-    width: 50%;
-  }
-  
-  .two-cols {
-    display: grid;
-    gap: 1.5em;
-    grid-template-columns: repeat(2, 1fr);
-  }
+    body {
+      font-size: 1.1em;
+    }
+    
+    header {
+      display: flex;
+      padding: 0;
+    }
+    
+    #welcome-section .description {
+      width: 50%;
+    }
+    
+    .two-cols {
+      display: grid;
+      gap: 1.5em;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   
   @media (min-width: 900px) {
-  .projects {
-    display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-    padding: 0;
-    text-align: center;
-    align-items: stretch;
-  }
+    .projects {
+      display: grid;
+      gap: 1em;
+      grid-template-columns: repeat(2, 1fr);
+      margin: auto;
+      padding: 0;
+      text-align: center;
+      align-items: stretch;
+    }
   }
   
   @media (min-width: 1500px) {
-  body {
-    font-size: 1.8em;
-    display: flex;
-    justify-content: center;
+    body {
+      font-size: 1.8em;
+      display: flex;
+      justify-content: center;
+    }
   }
-  }
-  
-}
