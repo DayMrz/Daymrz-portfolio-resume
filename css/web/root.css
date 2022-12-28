@@ -25,7 +25,7 @@
   --box-shadow-light-btn: hsl(263, 54%, 83%) 0px 50px 200px -30px, hsla(0, 0%, 0%, 0.3) 0px 30px 60px -30px, hsl(263, 54%, 83%) 0px -2px 6px 0px inset;
   --box-shadow-color-btn: hsla(195, 60%, 18%, 0.171) 0px 50px 200px -30px, hsla(195, 60%, 18%, 0.171) 0px 30px 60px -30px, hsla(195, 60%, 18%, 0.171) 0px -2px 6px 0px inset;
 
-  --icon-theme: url('/icons/svg/sun-solid.svg');
+  --icon-theme: url('/icomoon/svg/sun-solid.svg');
   --icon-theme-color: hsl(60, 100%, 50%);
 
 }
@@ -53,8 +53,7 @@
   --box-shadow-light-btn: hsla(286, 30%, 48%, 0.774) 0px 50px 200px -30px, hsla(0, 0%, 0%, 0.3) 0px 30px 60px -30px, hsla(286, 30%, 48%, 0.774) 0px -2px 6px 0px inset;
   --box-shadow-color-btn: hsla(195, 100%, 75%, 0.171) 0px 50px 200px -30px, hsla(195, 100%, 75%, 0.171) 0px 30px 60px -30px, hsla(196, 38%, 6%, 0.171) 0px -2px 6px 0px inset;
 
-  --icon-theme: url('/icons/svg/moon-solid.svg');
+  --icon-theme: url('/icomoon/svg/moon-solid.svg');
   --icon-theme-color: hsl(0, 0%, 0%);
-
 
 }
