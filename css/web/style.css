@@ -73,11 +73,12 @@ body {
 .settings-btn {
   background-image: var(--icon-theme);
   background-color: var(--color-header-title);
-  border: 1.5px solid var(--icon-theme-color);
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
   box-shadow: var(--box-shadow-color-btn);
   cursor: pointer;
-  padding: .9rem;
+  padding: 1rem;
 }
 
 #welcome-section .main-title {
