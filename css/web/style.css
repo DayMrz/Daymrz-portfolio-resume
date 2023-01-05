@@ -70,11 +70,14 @@ body {
   z-index: 1;
 }
 
-.settings-btn {
-  background-image: var(--icon-theme);
-  background-color: var(--color-header-title);
+#btn-theme {
+  background-image: var(--btn-icon);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.settings-btn {
+  background-color: var(--color-header-title);
   border-radius: 50%;
   box-shadow: var(--box-shadow-color-btn);
   cursor: pointer;
