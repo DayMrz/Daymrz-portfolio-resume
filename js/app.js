@@ -38,9 +38,9 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 
-const colorTheme = document.querySelector('#btn-theme')
+const btnTheme = document.querySelector('#btn-theme')
 
-colorTheme.addEventListener('click', lightTheme)
+btnTheme.addEventListener('click', lightTheme)
 
 function lightTheme() {
   document.body.classList.toggle('light')
