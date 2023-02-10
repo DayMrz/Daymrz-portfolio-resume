@@ -14,7 +14,7 @@
 }
 
 .wrapper {
-  background-color: var(--Secondary-Background);
+  background-color: var(--secondary-background);
   border-radius: 0 0 1rem 1rem;
   display: grid;
   gap: .5em;

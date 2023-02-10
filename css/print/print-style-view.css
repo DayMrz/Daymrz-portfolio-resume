@@ -1,11 +1,11 @@
 :root {
-  --Primary-Link-Active: hsl(240, 54%, 37%);
-  --Secondary-Link-Active: hsla(240, 39%, 42%, 0.842);
-  --Primary-Background: hsla(265, 51%, 80%, 0.082);
-  --Primary-Button: hsl(266, 47%, 27%);
-  --Secondary-Button: hsla(267, 47%, 27%, 0.397);
-  --Secondary-Background: hsla(0, 0%, 100%, 0.945);
-  --Background-Chetwode-Blue:hsl(237, 33%, 53%);
+  --primary-link-active: hsl(240, 54%, 37%);
+  --secondary-link-active: hsla(240, 39%, 42%, 0.842);
+  --primary-background: hsla(265, 51%, 80%, 0.082);
+  --primary-button: hsl(266, 47%, 27%);
+  --secondary-button: hsla(267, 47%, 27%, 0.397);
+  --secondary-background: hsla(0, 0%, 100%, 0.945);
+  --background-chetwode-blue:hsl(237, 33%, 53%);
 }
 
 *, *::before, ::after {
@@ -14,18 +14,19 @@
 }
 
 body {
-  background-color: var(--Background-Chetwode-Blue);
+  background-color: var(--background-chetwode-blue);
   font-family: Arial, Helvetica, sans-serif;
   font-size: .67em;
+  background-color: aqua;
 }
 
 a {
-  color: var(--Primary-Link-Active);
+  color: var(--primary-link-active);
   transition: all 0.3s ease ;
 }
 
 .main-title {
-  color: var(--Primary-Button);
+  color: var(--primary-button);
   font-size: 3.5em;
   font-weight: 700;
 }
@@ -43,7 +44,7 @@ footer,
 aside,
 footer,
 #header-print {
-  background-color: var(--Primary-Background);
+  background-color: var(--primary-background);
 }
 
 .display-title::before {
@@ -70,6 +71,7 @@ footer,
 .under-title-contact-info .flex-display,
 .contact-icons .flex-display {
   display: flex;
+  background-color: aqua;
 }
 
 .under-title-contact-info .icon,
@@ -126,7 +128,7 @@ footer {
 
 @media (any-hover: hover) {
   a:hover { 
-    color: var(--Secondary-Link-Active);
+    color: var(--secondary-link-active);
   }
 
   .btn-not-print button:hover {
