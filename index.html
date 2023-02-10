@@ -8,8 +8,9 @@
   <title>Day's Portfolio</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/day-logo-purple-background.jpg">
   <link rel="stylesheet" href="./icomoon/style.css" type="text/css">
-  <link id="pagestyle" rel="stylesheet" href="css/web/style.css" type="text/css" media="screen">
-  <link id="pagestyle" rel="stylesheet" href="css/print/print-view.css" media="print" type="text/css">
+  <!-- <link id="pagestyle" rel="stylesheet" href="css/web/style.css" type="text/css" media="screen">
+  <link id="pagestyle" rel="stylesheet" href="css/print/print-view.css" media="print" type="text/css"> -->
+  <link rel="stylesheet" href="css/print/print-view.css">
 
 </head>
 <body>
@@ -40,49 +41,29 @@
 
     <section id="header-print" class="print-view">
       <hr class="line-breaks  print-view">
-      <h2 class="subtitle print-view">Education</h2>
-      <ul class="education print-view">
-        <li class="footer-grid">
-          <div class="print-view flex-display">
-            <h4 class="subtitle">
-              Certification: Udemy - The Modern React Bootcamp 
-            </h4>
-            <p>Online - Present</p>
-          </div>
-        </li>
-        <li class="footer-grid">
-          <div class="print-view flex-display">
-            <h4 class="subtitle">
-              Certification: Udemy - UI UX Design Hybrid from Figma to HTML, CSS and Javascript 
-            </h4>
-            <p>Online - Present</p>
-          </div>
-        </li>
-        <li class="footer-grid">
-          <div class="print-view flex-display">
-            <h4 class="subtitle">
-              Certification: FreeCodeCamp - Responsive Web Design
-            </h4>
-            <p>Online - Oct 2021 - Feb 2022</p>
-          </div>
-        </li>
-        <li class="footer-grid">
-          <div class="print-view flex-display">
-            <h4 class="subtitle">
-              Certification: Udemy - The Web Developer Bootcamp
-            </h4>
-            <p>Online - Jan 2021 - Nov 2021</p>
-          </div>
-        </li>
-        <li class="footer-grid">
-          <div class="print-view flex-display">
-            <h4 class="subtitle">
-              Bachelor's Degree: Uniminuto - Social Work
-            </h4>
-            <p>Jan 2011 - April 2015</p>
-          </div>
-        </li>
-      </ul>
+        <h2 class="subtitle print-view">About Me</h2>
+          <p class="description">
+            Determined to pursue a career change from social worker to web developer, I started this journey two years ago and it turned into a passion for creating and building clean and modern websites.The ability to adapt to changes and the passion to learn more every day, has allowed me to undertake this adventure, improve my skills and keep up to date with new technologies.
+          </p>
+          <ul id="skill-list" class="two-cols">
+            <li>
+              <h3 class="subtitle print-view">Skills</h3>
+              <p class="description print-view">
+                HTML5 &#124; CSS3 &#124; JavaScript &#124; React &#124;
+                Express.js &#124; MongoDB &#124; Node.js &#124; Git &#124;
+                APIs &#124; JSON &#124; Twig &#124; PHP &#124; Sass &#124;
+              </p>
+            </li>
+            <li>
+              <h3 class="subtitle print-view">Tools</h3>
+              <p class="description print-view">
+                VSCode &#124; CodePen &#124; Google Fonts &#124;
+                Icomoon &#124; Font Awesome &#124; GitHub &#124; Bulma &#124;
+                Bootstrap &#124; Cloudinary &#124; npm &#124; Heroku &#124; Figma &#124; AdobeXd &#124; Storybook &#124; Codesandbox &#124; Webpack &#124; Docker &#124;
+              </p>
+            </li>
+          </ul>
+      
     </section>
 
     <div class="settings web-view">
@@ -122,7 +103,6 @@
 
     <aside id="about-me" class="web-view">
       <div class="reveal">
-        <h2 class="subtitle print-view">About Me</h2>
         <h2 class="subtitle web-view">About Me</h2>
         <p class="description">
           <span class="web-view"> Hello!</span> This journey as a self-taught web developer started a year ago and grew into a passion for creating and building clean and modern websites. <br>
@@ -172,77 +152,103 @@
     <main>
       <div class="about-me print-view">
         <h1 class="main-title print-view print-only">Day Munoz</h1>
-        <ul class="contact-icons print-view">
-          <li>
-            <div class="print-view flex-display">
-              <span class="print-view icon icon-github"></span>
-              <a class="display-title" href="https://github.com/DayMrz" target="_blank" title="GitHub" >
-              </a>
-            </div>
-          </li>
-        </ul>
-        <ul class="under-title-contact-info print-view">
-          <li>
-            <div class="print-view flex-display">
-              <span class="print-view icon icon-envelope"></span>
-              <a class="display-title print-view" href="mailto:daymrz1465@gmail.com" target="_blank" title="daymrz1465@gmail.com">
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="print-view flex-display">
-              <span class="print-view icon icon-linkedin"></span>
-              <a class="display-title print-view" href="https://www.linkedin.com/in/day-mrz-a6064113a/" target="_blank" title="https://www.linkedin.com/in/day-mrz-a6064113a/">
-              </a>
-            </div>
-          </li>
-        </ul>
+        <section class="contact print-view">
+          <ul class="contact-icons print-view">
+            <li>
+              <div class="print-view flex-display contact-info">
+                <span class="print-view icon icon-github"></span>
+                <a class="display-title" href="https://github.com/DayMrz" target="_blank" title="GitHub" >
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="print-view flex-display contact-info">
+                <span class="print-view icon icon-envelope"></span>
+                <a class="display-title print-view" href="mailto:daymrz1465@gmail.com" target="_blank" title="daymrz1465@gmail.com">
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="print-view flex-display contact-info">
+                <span class="print-view icon icon-linkedin"></span>
+                <a class="display-title print-view" href="https://www.linkedin.com/in/day-mrz-a6064113a/" target="_blank" title="https://www.linkedin.com/in/day-mrz-a6064113a/">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
         <hr class="line-breaks print-view">
         <div class="reveal">
-          <h2 class="subtitle print-view">About Me</h2>
-          <h2 class="subtitle web-view">About Me</h2>
+          <h2 class="subtitle print-view">Education</h2>
+      <ul class="education print-view">
+        <li class="footer-grid">
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: Udemy - The Modern React Bootcamp 
+            </h4>
+            <p>Online - Present</p>
+          </div>
+        </li>
+        <li class="footer-grid">
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: Udemy - UI UX Design Hybrid from Figma to HTML, CSS and Javascript 
+            </h4>
+            <p>Online - Present</p>
+          </div>
+        </li>
+        <li class="footer-grid">
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: FreeCodeCamp - Responsive Web Design
+            </h4>
+            <p>Online - Oct 2021 - Feb 2022</p>
+          </div>
+        </li>
+        <li class="footer-grid">
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Certification: Udemy - The Web Developer Bootcamp
+            </h4>
+            <p>Online - Jan 2021 - Nov 2021</p>
+          </div>
+        </li>
+        <li class="footer-grid">
+          <div class="print-view flex-display">
+            <h4 class="subtitle">
+              Bachelor's Degree: Uniminuto - Social Work
+            </h4>
+            <p>Jan 2011 - April 2015</p>
+          </div>
+        </li>
+      </ul>
+          <!-- <h2 class="subtitle print-view">About Me</h2>
           <p class="description">
             <span class="web-view"> Hello!</span> This journey to become a Front-End web developer started a year ago and grew into a passion for creating and building clean and modern websites. <br>
             Currently pursuing a career change and updating my skills are my goals. <br> 2y of experience as a social worker, communicating and developing new ideas have been essential to solving problems in the projects I have worked on. 
-          </p>
+          </p> -->
         </div>
   
-        <ul id="skill-list" class="two-cols">
-          <li class="reveal">
-            <span class="web-view icon-devices icons"></span>
-            <h3 class="subtitle web-view">Responsive Web App</h3>
-            <p class="description">
-              Following best practices and guidance to build responsive mobile-first applications allowing better user experiences. <br>
-              Likewise, constantly looking for learning opportunities to improve accessibility around the different devices
-            </p>
-          </li>
-  
-          <li class="reveal">
-            <span class="web-view icon-education icons"></span>
-            <h3 class="subtitle web-view">Education</h3>
-            <p class="description">
-              Continuously learning new techniques, interested in exploring the tools that big companies use, and aware of the trends in the frontend dev community.
-            </p>
-          </li>
-          <li class="reveal">
+        <!-- <ul id="skill-list" class="two-cols">
+          <li>
             <span class="web-view  icon-laptop icons"></span>
-            <h3 class="subtitle">Skills</h3>
-            <p class="description">
+            <h3 class="subtitle print-view">Skills</h3>
+            <p class="description print-view">
               HTML5 &#124; CSS3 &#124; JavaScript &#124; React &#124;
               Express.js &#124; MongoDB &#124; Node.js &#124; Git &#124;
               APIs &#124; JSON &#124; Twig &#124; PHP &#124; Sass &#124;
             </p>
           </li>
-          <li class="reveal">
+          <li>
             <span class="web-view icon-tools icons"></span>
-            <h3 class="subtitle">Tools</h3>
-            <p class="description">
+            <h3 class="subtitle print-view">Tools</h3>
+            <p class="description print-view">
               VSCode &#124; CodePen &#124; Google Fonts &#124;
               Icomoon &#124; Font Awesome &#124; GitHub &#124; Bulma &#124;
               Bootstrap &#124; Cloudinary &#124; npm &#124; Heroku &#124; Figma &#124; AdobeXd &#124; Storybook &#124; Codesandbox &#124; Webpack &#124; Docker &#124;
             </p>
           </li>
-        </ul>
+        </ul> -->
         <h2 class="print-view">Work Experience</h2>
         <ul>
           <li>
