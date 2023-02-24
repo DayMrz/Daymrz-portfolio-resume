@@ -42,7 +42,7 @@ footer,
 
 aside,
 footer,
-#header-print {
+#side-print {
   background-color: var(--primary-background);
 }
 
@@ -109,7 +109,7 @@ footer {
   padding: 1.5em;
 }
 
-#header-print {
+#side-print {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -123,8 +123,8 @@ footer {
   width: 150px;
 }
 
-#header-print .subtitle,
-#header-print .description {
+#side-print .subtitle,
+#side-print .description {
   text-align: left;
   width: 80%;
 }
