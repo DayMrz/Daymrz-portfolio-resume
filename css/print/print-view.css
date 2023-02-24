@@ -4,10 +4,10 @@
   display: none;
 }
 
-.print-view {
+/* .print-view {
   display: block;
   text-decoration: none;
-}
+} */
 
 .only-print {
   display: none;

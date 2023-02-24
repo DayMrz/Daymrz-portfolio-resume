@@ -102,6 +102,28 @@ footer,
 .education,
 .projects {
   padding: .5em 1.5em 0 1.5em;
+  text-transform: capitalize;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.edu-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.edu-lists ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education .description {
+  padding: 0;
+}
+
+.education .edu-location {
+  text-align: end;
 }
 
 .two-cols,
