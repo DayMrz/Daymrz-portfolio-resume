@@ -138,7 +138,7 @@ body {
 }
 
 #about-me .subtitle,
-#projects .project-title {
+#projects .subtitle {
   color: var(--icon-chetwode-blue);
   padding-bottom: 1em;
   text-align: center;

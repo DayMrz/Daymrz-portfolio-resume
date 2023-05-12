@@ -16,7 +16,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  line-height: 1.1rem;
+  line-height: 1.15rem;
 }
 
 a {
@@ -29,10 +29,6 @@ a {
   font-size: 3.5em;
   font-weight: 700;
   padding-bottom: 1rem;
-}
-
-.line-breaks {
-  margin: .5rem;
 }
 
 aside,
