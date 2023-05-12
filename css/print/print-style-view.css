@@ -16,7 +16,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  line-height: 1.2rem;
+  line-height: 1.1rem;
 }
 
 a {
@@ -107,6 +107,10 @@ footer,
 
 .bold {
   font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .edu-lists {
