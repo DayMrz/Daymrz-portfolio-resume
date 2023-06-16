@@ -22,10 +22,7 @@ body {
   background-color: var(--primary-background-violet);
 }
 
-aside,
-#projects,
-.blog,
-.icons-container {
+.large-wrapper {
   max-width: 1200px;
 }
 
