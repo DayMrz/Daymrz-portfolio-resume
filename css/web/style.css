@@ -358,7 +358,5 @@ footer {
 @media (min-width: 1500px) {
   body {
     font-size: 1.8em;
-    display: flex;
-    justify-content: center;
     }
   }
