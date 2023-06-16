@@ -416,56 +416,60 @@
     </main>
     <hr class="line-breaks web-view">
     <section id="blog" class="web-view reveal">
-      <h2 class="subtitle web-view">Blog</h2>
-      <p class="description">
-        The idea of having a blog came from some mistakes I made and topics that were difficult for me to understand. In the same way I thought  that writing about it could be helpful for other people going through the same situation.
-      </p>
-      <div class="carousel">
-        <div class="carousel-window">
-          <div class="carousel-image-container" id="imgs">
-            <a class="link-img-carousel" href="https://daynotes.hashnode.dev/what-is-regex">
-              <img class="img-carousel" src="./images/project-img/whatisregex.png" alt="what is regex?">
-            </a>
-            <a class="link-img-carousel" href="https://daynotes.hashnode.dev/how-do-i-create-an-express-router">
-              <img class="img-carousel" src="./images/project-img/express-route.jpeg" alt="how do you create an express route">
-            </a>
-            <a class="link-img-carousel" href="https://daynotes.hashnode.dev/your-mcafee-subscription-has-expired">
-              <img class="img-carousel" src="./images/project-img/Mcafee-viruses.jpeg" alt="virus your mcafee suscription has expired">
-            </a>
-            <a class="link-img-carousel" href="https://daynotes.hashnode.dev/error-heroku-cannot-find-mongodb-yelpcamp-on-the-web-developer-bootcamp-2022">
-              <img class="img-carousel" src="./images/project-img/heroku.jpeg" alt="error heroku cannot find mongodb yelp camp web developer bootcamp">
-            </a>
+      <div class="blog">
+        <h2 class="subtitle web-view">Blog</h2>
+        <p class="description">
+          The idea of having a blog came from some mistakes I made and topics that were difficult for me to understand. In the same way I thought  that writing about it could be helpful for other people going through the same situation.
+        </p>
+        <div class="carousel">
+          <div class="carousel-window">
+            <div class="carousel-image-container" id="imgs">
+              <a class="link-img-carousel" href="https://daynotes.hashnode.dev/what-is-regex">
+                <img class="img-carousel" src="./images/project-img/whatisregex.png" alt="what is regex?">
+              </a>
+              <a class="link-img-carousel" href="https://daynotes.hashnode.dev/how-do-i-create-an-express-router">
+                <img class="img-carousel" src="./images/project-img/express-route.jpeg" alt="how do you create an express route">
+              </a>
+              <a class="link-img-carousel" href="https://daynotes.hashnode.dev/your-mcafee-subscription-has-expired">
+                <img class="img-carousel" src="./images/project-img/Mcafee-viruses.jpeg" alt="virus your mcafee suscription has expired">
+              </a>
+              <a class="link-img-carousel" href="https://daynotes.hashnode.dev/error-heroku-cannot-find-mongodb-yelpcamp-on-the-web-developer-bootcamp-2022">
+                <img class="img-carousel" src="./images/project-img/heroku.jpeg" alt="error heroku cannot find mongodb yelp camp web developer bootcamp">
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="buttons-container">
-          <button id="left" class="btn-carousel">Prev</button>
-          <button id="right" class="btn-carousel">Next</button>
+          <div class="buttons-container">
+            <button id="left" class="btn-carousel">Prev</button>
+            <button id="right" class="btn-carousel">Next</button>
+          </div>
         </div>
       </div>
     </section>
 
     <footer>
       <section id="contact" class="container-form web-view reveal">
-        <h2  class="subtitle">Contact Me</h2>
-        <form class="form" 
-              action="https://formspree.io/f/xbjwoapv"
-              method="POST"
-              enctype="multipart/form-data"
-              name="contact-form"
-              accept-charset="utf-8">
-              <label for="full-name">Full Name:</label>
-              <input type="text" size="19" name="name" 
-              id="full-name" placeholder="First and Last" required>
-              <label for="email-address">Email</label>
-              <input type="email" name="Contact-Email" required
-              id="email-address" placeholder="email@domain.com">
-              <label for="message">Message:</label>
-              <textarea name="message" required spellcheck="true"
-              id="message" cols="20" rows="6">
-              </textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-              <button type="submit" value="submit">Submit</button>
-        </form>
+        <div class="content-form">
+          <h2  class="subtitle">Contact Me</h2>
+          <form class="form" 
+                action="https://formspree.io/f/xbjwoapv"
+                method="POST"
+                enctype="multipart/form-data"
+                name="contact-form"
+                accept-charset="utf-8">
+                <label for="full-name">Full Name:</label>
+                <input type="text" size="19" name="name" 
+                id="full-name" placeholder="First and Last" required>
+                <label for="email-address">Email</label>
+                <input type="email" name="Contact-Email" required
+                id="email-address" placeholder="email@domain.com">
+                <label for="message">Message:</label>
+                <textarea name="message" required spellcheck="true"
+                id="message" cols="20" rows="6">
+                </textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <button type="submit" value="submit">Submit</button>
+          </form>
+        </div>
       </section>
       <section class="icons-container">
         <ul class="contact-icons web-view">
